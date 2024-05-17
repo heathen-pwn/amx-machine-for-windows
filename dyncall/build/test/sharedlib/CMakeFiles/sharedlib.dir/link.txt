@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/sharedlib.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/sharedlib.dir/objects.a @CMakeFiles/sharedlib.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -shared -o libsharedlib.dll -Wl,--out-implib,libsharedlib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/sharedlib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/sharedlib.dir/linkLibs.rsp

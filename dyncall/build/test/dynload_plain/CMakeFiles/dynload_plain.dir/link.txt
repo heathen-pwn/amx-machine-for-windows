@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/dynload_plain.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/dynload_plain.dir/objects.a @CMakeFiles/dynload_plain.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/dynload_plain.dir/objects.a -Wl,--no-whole-archive -o dynload_plain.exe -Wl,--out-implib,libdynload_plain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/dynload_plain.dir/linkLibs.rsp

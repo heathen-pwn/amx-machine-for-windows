@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libdyncall_s.a CMakeFiles/dyncall_s.dir/dyncall_call.S.obj CMakeFiles/dyncall_s.dir/dyncall_vector.c.obj CMakeFiles/dyncall_s.dir/dyncall_struct.c.obj CMakeFiles/dyncall_s.dir/dyncall_api.c.obj CMakeFiles/dyncall_s.dir/dyncall_callvm.c.obj CMakeFiles/dyncall_s.dir/dyncall_callvm_base.c.obj CMakeFiles/dyncall_s.dir/dyncall_callf.c.obj
+/usr/bin/x86_64-w64-mingw32-ranlib libdyncall_s.a

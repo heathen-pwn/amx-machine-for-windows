@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/x.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/x.dir/objects.a @CMakeFiles/x.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -shared -o dynload_plain_ß_test -Wl,--out-implib,libdynload_plain_ß_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/x.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/x.dir/linkLibs.rsp

@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libdynload_s.a CMakeFiles/dynload_s.dir/dynload.c.obj CMakeFiles/dynload_s.dir/dynload_syms.c.obj
+/usr/bin/x86_64-w64-mingw32-ranlib libdynload_s.a

@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/plain_cxx.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/plain_cxx.dir/objects.a @CMakeFiles/plain_cxx.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -Wl,--whole-archive CMakeFiles/plain_cxx.dir/objects.a -Wl,--no-whole-archive -o plain_cxx.exe -Wl,--out-implib,libplain_cxx.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/plain_cxx.dir/linkLibs.rsp

@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/malloc_wx.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/malloc_wx.dir/objects.a @CMakeFiles/malloc_wx.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/malloc_wx.dir/objects.a -Wl,--no-whole-archive -o malloc_wx.exe -Wl,--out-implib,libmalloc_wx.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/malloc_wx.dir/linkLibs.rsp

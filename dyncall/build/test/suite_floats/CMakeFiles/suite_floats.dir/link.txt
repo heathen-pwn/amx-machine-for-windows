@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/suite_floats.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/suite_floats.dir/objects.a @CMakeFiles/suite_floats.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -Wl,--whole-archive CMakeFiles/suite_floats.dir/objects.a -Wl,--no-whole-archive -o suite_floats.exe -Wl,--out-implib,libsuite_floats.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/suite_floats.dir/linkLibs.rsp

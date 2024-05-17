@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/test_thunk.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/test_thunk.dir/objects.a @CMakeFiles/test_thunk.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/test_thunk.dir/objects.a -Wl,--no-whole-archive -o test_thunk.exe -Wl,--out-implib,libtest_thunk.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/test_thunk.dir/linkLibs.rsp

@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libdyncallback_s.a CMakeFiles/dyncallback_s.dir/dyncall_callback_arch.S.obj CMakeFiles/dyncallback_s.dir/dyncall_thunk.c.obj CMakeFiles/dyncallback_s.dir/dyncall_alloc_wx.c.obj CMakeFiles/dyncallback_s.dir/dyncall_args.c.obj CMakeFiles/dyncallback_s.dir/dyncall_callback.c.obj
+/usr/bin/x86_64-w64-mingw32-ranlib libdyncallback_s.a
