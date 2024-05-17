@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/amxProcess.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/amxProcess.dir/objects.a @CMakeFiles/amxProcess.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--output-def,/root/pawn/build/amxProcess.def -shared -o ../amxProcess.dll -Wl,--out-implib,libamxProcess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/amxProcess.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/amxProcess.dir/linkLibs.rsp

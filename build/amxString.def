@@ -1,0 +1,5 @@
+EXPORTS
+    amx_ConsoleCleanup @1
+    amx_ConsoleInit @2
+    amx_StringCleanup @3
+    amx_StringInit @4

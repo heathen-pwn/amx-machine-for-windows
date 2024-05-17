@@ -1,0 +1,3 @@
+EXPORTS
+    amx_DGramCleanup @1
+    amx_DGramInit @2

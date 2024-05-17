@@ -1,0 +1,3 @@
+EXPORTS
+    amx_FileCleanup @1
+    amx_FileInit @2

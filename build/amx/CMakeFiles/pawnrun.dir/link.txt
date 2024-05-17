@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/pawnrun.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/pawnrun.dir/objects.a @CMakeFiles/pawnrun.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/pawnrun.dir/objects.a -Wl,--no-whole-archive -o ../pawnrun.exe -Wl,--out-implib,libpawnrun.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/pawnrun.dir/linkLibs.rsp

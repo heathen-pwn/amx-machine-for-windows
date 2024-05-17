@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/pawndbg.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/pawndbg.dir/objects.a @CMakeFiles/pawndbg.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/pawndbg.dir/objects.a -Wl,--no-whole-archive -o ../pawndbg.exe -Wl,--out-implib,libpawndbg.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/pawndbg.dir/linkLibs.rsp

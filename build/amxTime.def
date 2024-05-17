@@ -1,0 +1,3 @@
+EXPORTS
+    amx_TimeCleanup @1
+    amx_TimeInit @2

@@ -1,0 +1,3 @@
+EXPORTS
+    amx_FixedCleanup @1
+    amx_FixedInit @2

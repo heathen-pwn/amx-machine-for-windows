@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/amxString.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/amxString.dir/objects.a @CMakeFiles/amxString.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--output-def,/root/pawn/build/amxString.def -shared -o ../amxString.dll -Wl,--out-implib,libamxString.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/amxString.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/amxString.dir/linkLibs.rsp

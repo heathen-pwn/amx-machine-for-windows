@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/amxFixed.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/amxFixed.dir/objects.a @CMakeFiles/amxFixed.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--output-def,/root/pawn/build/amxFixed.def -shared -o ../amxFixed.dll -Wl,--out-implib,libamxFixed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/amxFixed.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/amxFixed.dir/linkLibs.rsp

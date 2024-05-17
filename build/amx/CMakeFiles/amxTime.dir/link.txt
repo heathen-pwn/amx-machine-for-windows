@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/amxTime.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/amxTime.dir/objects.a @CMakeFiles/amxTime.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--output-def,/root/pawn/build/amxTime.def -shared -o ../amxTime.dll -Wl,--out-implib,libamxTime.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/amxTime.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/amxTime.dir/linkLibs.rsp

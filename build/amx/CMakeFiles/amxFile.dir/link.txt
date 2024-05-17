@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/amxFile.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/amxFile.dir/objects.a @CMakeFiles/amxFile.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--output-def,/root/pawn/build/amxFile.def -shared -o ../amxFile.dll -Wl,--out-implib,libamxFile.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/amxFile.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/amxFile.dir/linkLibs.rsp

@@ -1,0 +1,3 @@
+EXPORTS
+    amx_FloatCleanup @1
+    amx_FloatInit @2

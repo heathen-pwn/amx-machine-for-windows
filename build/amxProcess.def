@@ -1,0 +1,3 @@
+EXPORTS
+    amx_ProcessCleanup @1
+    amx_ProcessInit @2
